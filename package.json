@@ -1,0 +1,29 @@
+{
+  "name": "react-pwa-starterkit",
+  "version": "0.0.1",
+  "description": "A React.js starter kit for kicking off your next PWA (Progressive Web Application).",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "echo \"No testing framework has been implemented as of yet.\" && exit 1",
+    "start": "npm run build",
+    "build": "webpack -d && webpack-dev-server --content-base src/ --inline --hot --port 8080"
+  },
+  "author": "Jordan Brauer <jbrauer.inc@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.5",
+    "style-loader": "^0.18.1",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
